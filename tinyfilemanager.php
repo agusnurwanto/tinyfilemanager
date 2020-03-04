@@ -1,6 +1,6 @@
 <?php
 //Default Configuration
-$CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":false,"calc_folder":false}';
+$CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":true,"calc_folder":false}';
 
 /**
  * H3K | Tiny File Manager V2.4.1
@@ -12,7 +12,7 @@ $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":
 define('VERSION', '2.4.1');
 
 //Application Title
-define('APP_TITLE', 'Tiny File Manager');
+define('APP_TITLE', 'SHALIH HOTSPOT<br>File Manager');
 
 // --- EDIT BELOW CONFIGURATION CAREFULLY ---
 
@@ -55,7 +55,7 @@ $default_timezone = 'Etc/UTC'; // UTC
 
 // Root path for file manager
 // use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
-$root_path = $_SERVER['DOCUMENT_ROOT'];
+$root_path = $_SERVER['DOCUMENT_ROOT'].'';
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
@@ -283,11 +283,74 @@ if ($use_auth) {
                                 <form class="form-signin" action="" method="post" autocomplete="off">
                                     <div class="form-group">
                                        <div class="brand">
-                                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" M1008 width="100%" height="80px" viewBox="0 0 238.000000 140.000000" aria-label="H3K Tiny File Manager">
-                                                <g transform="translate(0.000000,140.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                                                    <path d="M160 700 l0 -600 110 0 110 0 0 260 0 260 70 0 70 0 0 -260 0 -260 110 0 110 0 0 600 0 600 -110 0 -110 0 0 -260 0 -260 -70 0 -70 0 0 260 0 260 -110 0 -110 0 0 -600z"/>
-                                                    <path fill="#003500" d="M1008 1227 l-108 -72 0 -117 0 -118 110 0 110 0 0 110 0 110 70 0 70 0 0 -180 0 -180 -125 0 c-69 0 -125 -3 -125 -6 0 -3 23 -39 52 -80 l52 -74 73 0 73 0 0 -185 0 -185 -70 0 -70 0 0 115 0 115 -110 0 -110 0 0 -190 0 -190 181 0 181 0 109 73 108 72 1 181 0 181 -69 48 -68 49 68 50 69 49 0 249 0 248 -182 -1 -183 0 -107 -72z"/>
-                                                    <path d="M1640 700 l0 -600 110 0 110 0 0 208 0 208 35 34 35 34 35 -34 35 -34 0 -208 0 -208 110 0 110 0 0 212 0 213 -87 87 -88 88 88 88 87 87 0 213 0 212 -110 0 -110 0 0 -208 0 -208 -70 -69 -70 -69 0 277 0 277 -110 0 -110 0 0 -600z"/></g>
+                                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                                 width="120px" height="80px" viewBox="0 0 640.000000 640.000000" style="margin-bottom: 15px"
+                                                 preserveAspectRatio="xMidYMid meet">
+                                                <metadata>
+                                                Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                                </metadata>
+                                                <g transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)"
+                                                fill="#000000" stroke="none">
+                                                <path d="M3045 6391 c-11 -5 -65 -11 -120 -15 -104 -7 -133 -11 -330 -47 -224
+                                                -40 -474 -116 -670 -205 -62 -28 -271 -132 -302 -150 -106 -63 -211 -131 -268
+                                                -174 -37 -28 -70 -50 -75 -50 -4 0 -10 -3 -12 -8 -1 -4 -23 -23 -48 -42 -156
+                                                -119 -376 -339 -526 -525 -48 -59 -225 -316 -237 -345 -4 -8 -17 -31 -28 -50
+                                                -24 -40 -104 -197 -143 -280 -135 -294 -242 -712 -262 -1025 -3 -60 -11 -115
+                                                -16 -122 -17 -22 8 -487 32 -583 5 -19 14 -73 21 -120 25 -180 74 -362 157
+                                                -585 48 -127 188 -426 205 -433 4 -2 7 -8 7 -14 0 -24 266 -408 309 -448 4 -3
+                                                24 -27 46 -55 88 -110 314 -322 490 -460 66 -52 269 -186 297 -197 16 -5 28
+                                                -14 28 -18 0 -13 352 -183 435 -211 22 -7 45 -16 50 -20 15 -11 261 -85 362
+                                                -109 337 -82 717 -113 1018 -82 181 19 289 33 310 42 11 4 54 13 95 20 41 7
+                                                84 16 95 20 11 5 31 11 45 13 31 6 228 65 255 76 11 5 36 15 55 22 126 45 388
+                                                170 513 245 27 16 63 37 79 47 17 10 37 24 45 32 8 8 18 15 22 15 5 0 37 22
+                                                71 50 34 27 66 50 69 50 4 0 16 8 27 18 10 9 39 33 64 52 76 59 110 91 245
+                                                225 176 177 230 236 301 330 60 79 194 280 194 291 0 3 9 18 19 33 22 30 125
+                                                231 154 297 63 149 107 261 107 276 0 9 4 19 9 22 5 3 11 18 14 33 3 16 10 45
+                                                16 66 6 20 16 54 22 75 6 20 14 55 19 77 5 22 15 69 23 105 8 36 22 117 31
+                                                180 10 63 22 138 27 165 6 30 9 162 6 325 -4 274 -18 430 -51 545 -8 27 -19
+                                                75 -25 105 -7 30 -17 73 -22 95 -6 22 -15 58 -21 80 -16 62 -58 197 -70 225
+                                                -6 14 -14 34 -18 45 -50 135 -217 485 -231 485 -4 0 -11 9 -14 21 -7 22 -172
+                                                274 -196 299 -8 8 -31 38 -52 65 -110 145 -322 358 -499 502 -94 77 -319 231
+                                                -411 282 -73 41 -261 135 -307 154 -19 8 -60 24 -90 37 -30 12 -64 26 -75 31
+                                                -11 5 -65 22 -120 39 -55 17 -129 40 -165 52 -63 19 -102 28 -220 49 -106 18
+                                                -196 30 -322 42 -69 7 -130 15 -134 20 -10 9 -283 8 -309 -2z m-1161 -1462
+                                                c81 -38 126 -109 126 -198 0 -70 -9 -92 -77 -193 -29 -42 -53 -79 -53 -82 0
+                                                -3 -13 -27 -28 -53 -47 -80 -109 -245 -127 -338 -3 -16 -11 -52 -18 -80 -7
+                                                -31 -11 -135 -11 -270 1 -218 8 -320 25 -331 5 -3 9 -17 9 -31 0 -30 14 -77
+                                                42 -140 10 -24 18 -46 18 -49 0 -9 29 -75 46 -104 8 -14 22 -42 32 -62 9 -21
+                                                20 -38 24 -38 5 0 8 -4 8 -9 0 -27 101 -158 210 -273 95 -100 120 -140 127
+                                                -202 14 -121 -100 -246 -224 -246 -78 0 -127 28 -226 130 -120 123 -168 184
+                                                -267 335 -74 113 -200 388 -200 436 0 10 -4 21 -10 24 -5 3 -10 21 -10 40 0
+                                                19 -4 36 -9 39 -5 3 -12 23 -15 43 -4 21 -11 63 -16 93 -31 183 -37 490 -11
+                                                626 5 27 15 82 22 122 7 40 16 75 21 78 4 3 8 15 8 27 1 23 33 126 70 217 88
+                                                221 264 490 322 490 9 0 20 5 23 10 11 18 122 11 169 -11z m2773 0 c47 -26 83
+                                                -59 83 -75 0 -7 3 -14 8 -16 10 -5 52 -66 52 -77 0 -5 3 -11 8 -13 15 -7 102
+                                                -168 156 -289 28 -64 85 -245 101 -320 8 -41 21 -96 27 -124 17 -68 17 -532 0
+                                                -600 -6 -27 -19 -83 -27 -124 -16 -75 -73 -256 -101 -320 -42 -95 -82 -172
+                                                -121 -234 -24 -37 -43 -70 -43 -72 0 -18 -154 -208 -236 -292 -110 -112 -143
+                                                -131 -237 -134 -68 -2 -91 7 -145 56 -43 39 -62 78 -69 142 -9 79 14 124 110
+                                                223 71 74 118 131 190 231 23 32 79 128 93 159 6 14 22 48 34 75 12 28 26 57
+                                                30 65 6 13 36 117 70 240 34 126 30 452 -7 590 -8 30 -18 71 -23 90 -8 34 -24
+                                                85 -40 125 -7 18 -18 44 -64 145 -15 34 -80 141 -120 198 -55 81 -65 127 -43
+                                                209 14 54 83 132 132 150 53 19 140 15 182 -8z m-2219 -421 c69 -17 118 -52
+                                                156 -113 14 -21 19 -49 20 -101 0 -67 -2 -75 -44 -145 -94 -154 -119 -231
+                                                -127 -387 -6 -110 9 -244 29 -267 4 -5 8 -17 8 -27 0 -10 4 -26 9 -36 5 -9 19
+                                                -39 32 -67 13 -27 26 -52 29 -55 3 -3 24 -30 47 -61 23 -31 48 -63 57 -72 9
+                                                -8 16 -22 16 -31 0 -8 5 -18 10 -21 15 -9 12 -118 -5 -158 -38 -91 -109 -137
+                                                -210 -137 -97 0 -130 20 -230 141 -91 110 -172 278 -217 449 -37 139 -47 343
+                                                -24 470 26 140 30 155 66 255 9 24 77 162 111 224 33 60 105 122 159 136 61
+                                                17 55 16 108 3z m1610 1 c26 -7 66 -26 88 -43 37 -28 111 -130 140 -196 61
+                                                -133 80 -192 115 -340 17 -74 17 -358 0 -430 -62 -258 -161 -458 -296 -596
+                                                -58 -60 -92 -74 -178 -74 -66 0 -78 3 -114 29 -55 40 -93 92 -93 127 0 16 -4
+                                                35 -9 42 -9 15 4 82 25 127 8 17 37 57 64 89 48 58 97 146 118 216 6 19 18 57
+                                                27 84 32 106 13 351 -36 456 -12 25 -26 56 -32 70 -6 14 -22 40 -34 57 -86
+                                                119 -81 238 13 327 33 31 100 62 142 65 7 1 34 -4 60 -10z m-774 -400 c201
+                                                -54 336 -220 336 -414 0 -78 -27 -167 -70 -230 -33 -48 -110 -121 -145 -137
+                                                l-25 -11 0 -922 c0 -822 -2 -927 -16 -961 -32 -79 -84 -114 -167 -114 -69 0
+                                                -110 21 -147 75 l-30 44 0 935 0 935 -45 26 c-57 34 -123 108 -154 171 -13 27
+                                                -27 57 -32 66 -13 25 -11 212 2 245 61 152 156 242 304 288 51 17 136 18 189
+                                                4z"/>
+                                                </g>
                                             </svg>
                                         </div>
                                         <div class="text-center">
@@ -297,12 +360,12 @@ if ($use_auth) {
                                     <hr />
                                     <div class="form-group">
                                         <label for="fm_usr"><?php echo lng('Username'); ?></label>
-                                        <input type="text" class="form-control" id="fm_usr" name="fm_usr" required autofocus>
+                                        <input type="text" class="form-control" id="fm_usr" name="fm_usr" required autofocus value="user">
                                     </div>
 
                                     <div class="form-group">
                                         <label for="fm_pwd"><?php echo lng('Password'); ?></label>
-                                        <input type="password" class="form-control" id="fm_pwd" name="fm_pwd" required>
+                                        <input type="password" class="form-control" id="fm_pwd" name="fm_pwd" required value="12345">
                                     </div>
 
                                     <div class="form-group">
@@ -1091,7 +1154,7 @@ if (isset($_GET['upload']) && !FM_READONLY) {
     }
     ?>
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.css" rel="stylesheet">
+    <link href="file/css/dropzone.min.css" rel="stylesheet">
     <div class="path">
 
         <div class="card mb-2 fm-upload-wrapper">
@@ -1131,7 +1194,7 @@ if (isset($_GET['upload']) && !FM_READONLY) {
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"></script>
+    <script src="file/js/dropzone.min.js"></script>
     <script>
         Dropzone.options.fileUploader = {
             timeout: 120000,
@@ -2718,7 +2781,7 @@ function fm_get_image_exts()
  */
 function fm_get_video_exts()
 {
-    return array('avi', 'webm', 'wmv', 'mp4', 'm4v', 'ogm', 'ogv', 'mov', 'mkv');
+    return array('3gp', 'avi', 'webm', 'wmv', 'mp4', 'm4v', 'ogm', 'ogv', 'mov', 'mkv');
 }
 
 /**
@@ -3191,7 +3254,7 @@ global $lang, $root_url, $favicon_path;
     <meta name="googlebot" content="noindex">
     <link rel="icon" href="<?php echo fm_enc($favicon_path) ?>" type="image/png">
     <title><?php echo fm_enc(APP_TITLE) ?></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="file/css/bootstrap.min.css">
     <style>
         body.fm-login-page{ background-color:#f7f9fb;font-size:14px;background-color:#f7f9fb;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 304 304' width='304' height='304'%3E%3Cpath fill='%23e2e9f1' fill-opacity='0.4' d='M44.1 224a5 5 0 1 1 0 2H0v-2h44.1zm160 48a5 5 0 1 1 0 2H82v-2h122.1zm57.8-46a5 5 0 1 1 0-2H304v2h-42.1zm0 16a5 5 0 1 1 0-2H304v2h-42.1zm6.2-114a5 5 0 1 1 0 2h-86.2a5 5 0 1 1 0-2h86.2zm-256-48a5 5 0 1 1 0 2H0v-2h12.1zm185.8 34a5 5 0 1 1 0-2h86.2a5 5 0 1 1 0 2h-86.2zM258 12.1a5 5 0 1 1-2 0V0h2v12.1zm-64 208a5 5 0 1 1-2 0v-54.2a5 5 0 1 1 2 0v54.2zm48-198.2V80h62v2h-64V21.9a5 5 0 1 1 2 0zm16 16V64h46v2h-48V37.9a5 5 0 1 1 2 0zm-128 96V208h16v12.1a5 5 0 1 1-2 0V210h-16v-76.1a5 5 0 1 1 2 0zm-5.9-21.9a5 5 0 1 1 0 2H114v48H85.9a5 5 0 1 1 0-2H112v-48h12.1zm-6.2 130a5 5 0 1 1 0-2H176v-74.1a5 5 0 1 1 2 0V242h-60.1zm-16-64a5 5 0 1 1 0-2H114v48h10.1a5 5 0 1 1 0 2H112v-48h-10.1zM66 284.1a5 5 0 1 1-2 0V274H50v30h-2v-32h18v12.1zM236.1 176a5 5 0 1 1 0 2H226v94h48v32h-2v-30h-48v-98h12.1zm25.8-30a5 5 0 1 1 0-2H274v44.1a5 5 0 1 1-2 0V146h-10.1zm-64 96a5 5 0 1 1 0-2H208v-80h16v-14h-42.1a5 5 0 1 1 0-2H226v18h-16v80h-12.1zm86.2-210a5 5 0 1 1 0 2H272V0h2v32h10.1zM98 101.9V146H53.9a5 5 0 1 1 0-2H96v-42.1a5 5 0 1 1 2 0zM53.9 34a5 5 0 1 1 0-2H80V0h2v34H53.9zm60.1 3.9V66H82v64H69.9a5 5 0 1 1 0-2H80V64h32V37.9a5 5 0 1 1 2 0zM101.9 82a5 5 0 1 1 0-2H128V37.9a5 5 0 1 1 2 0V82h-28.1zm16-64a5 5 0 1 1 0-2H146v44.1a5 5 0 1 1-2 0V18h-26.1zm102.2 270a5 5 0 1 1 0 2H98v14h-2v-16h124.1zM242 149.9V160h16v34h-16v62h48v48h-2v-46h-48v-66h16v-30h-16v-12.1a5 5 0 1 1 2 0zM53.9 18a5 5 0 1 1 0-2H64V2H48V0h18v18H53.9zm112 32a5 5 0 1 1 0-2H192V0h50v2h-48v48h-28.1zm-48-48a5 5 0 0 1-9.8-2h2.07a3 3 0 1 0 5.66 0H178v34h-18V21.9a5 5 0 1 1 2 0V32h14V2h-58.1zm0 96a5 5 0 1 1 0-2H137l32-32h39V21.9a5 5 0 1 1 2 0V66h-40.17l-32 32H117.9zm28.1 90.1a5 5 0 1 1-2 0v-76.51L175.59 80H224V21.9a5 5 0 1 1 2 0V82h-49.59L146 112.41v75.69zm16 32a5 5 0 1 1-2 0v-99.51L184.59 96H300.1a5 5 0 0 1 3.9-3.9v2.07a3 3 0 0 0 0 5.66v2.07a5 5 0 0 1-3.9-3.9H185.41L162 121.41v98.69zm-144-64a5 5 0 1 1-2 0v-3.51l48-48V48h32V0h2v50H66v55.41l-48 48v2.69zM50 53.9v43.51l-48 48V208h26.1a5 5 0 1 1 0 2H0v-65.41l48-48V53.9a5 5 0 1 1 2 0zm-16 16V89.41l-34 34v-2.82l32-32V69.9a5 5 0 1 1 2 0zM12.1 32a5 5 0 1 1 0 2H9.41L0 43.41V40.6L8.59 32h3.51zm265.8 18a5 5 0 1 1 0-2h18.69l7.41-7.41v2.82L297.41 50H277.9zm-16 160a5 5 0 1 1 0-2H288v-71.41l16-16v2.82l-14 14V210h-28.1zm-208 32a5 5 0 1 1 0-2H64v-22.59L40.59 194H21.9a5 5 0 1 1 0-2H41.41L66 216.59V242H53.9zm150.2 14a5 5 0 1 1 0 2H96v-56.6L56.6 162H37.9a5 5 0 1 1 0-2h19.5L98 200.6V256h106.1zm-150.2 2a5 5 0 1 1 0-2H80v-46.59L48.59 178H21.9a5 5 0 1 1 0-2H49.41L82 208.59V258H53.9zM34 39.8v1.61L9.41 66H0v-2h8.59L32 40.59V0h2v39.8zM2 300.1a5 5 0 0 1 3.9 3.9H3.83A3 3 0 0 0 0 302.17V256h18v48h-2v-46H2v42.1zM34 241v63h-2v-62H0v-2h34v1zM17 18H0v-2h16V0h2v18h-1zm273-2h14v2h-16V0h2v16zm-32 273v15h-2v-14h-14v14h-2v-16h18v1zM0 92.1A5.02 5.02 0 0 1 6 97a5 5 0 0 1-6 4.9v-2.07a3 3 0 1 0 0-5.66V92.1zM80 272h2v32h-2v-32zm37.9 32h-2.07a3 3 0 0 0-5.66 0h-2.07a5 5 0 0 1 9.8 0zM5.9 0A5.02 5.02 0 0 1 0 5.9V3.83A3 3 0 0 0 3.83 0H5.9zm294.2 0h2.07A3 3 0 0 0 304 3.83V5.9a5 5 0 0 1-3.9-5.9zm3.9 300.1v2.07a3 3 0 0 0-1.83 1.83h-2.07a5 5 0 0 1 3.9-3.9zM97 100a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-48 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 96a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-144a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM49 36a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM33 68a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 240a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm80-176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm112 176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 180a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 84a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'%3E%3C/path%3E%3C/svg%3E");}
         .fm-login-page .brand{ width:121px;overflow:hidden;margin:0 auto;position:relative;z-index:1}
@@ -3229,8 +3292,8 @@ global $lang, $root_url, $favicon_path;
     {
     ?>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="file/js/jquery.slim.min.js"></script>
+<script src="file/js/bootstrap.min.js"></script>
 </body>
 </html>
 <?php
@@ -3261,11 +3324,11 @@ $isStickyNavBar = $sticky_navbar ? 'navbar-fixed' : 'navbar-normal';
     <meta name="googlebot" content="noindex">
     <link rel="icon" href="<?php echo fm_enc($favicon_path) ?>" type="image/png">
     <title><?php echo fm_enc(APP_TITLE) ?></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" href="file/css/bootstrap.min.css">
+    <link rel="stylesheet" href="file/css/font-awesome.min.css">
+    <link rel="stylesheet" href="file/css/ekko-lightbox.css" />
     <?php if (FM_USE_HIGHLIGHTJS): ?>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/<?php echo FM_HIGHLIGHTJS_STYLE ?>.min.css">
+    <link rel="stylesheet" href="file/css/<?php echo FM_HIGHLIGHTJS_STYLE ?>.min.css">
     <?php endif; ?>
     <style>
         body { font-size:14px;color:#222;background:#F7F7F7; }
@@ -3482,12 +3545,12 @@ $isStickyNavBar = $sticky_navbar ? 'navbar-fixed' : 'navbar-normal';
     {
     ?>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+<script src="file/js/jquery.min.js"></script>
+<script src="file/js/bootstrap.min.js"></script>
+<script src="file/js/jquery.dataTables.min.js"></script>
+<script src="file/js/ekko-lightbox.min.js"></script>
 <?php if (FM_USE_HIGHLIGHTJS): ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+    <script src="file/js/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad(); var isHighlightingEnabled = true;</script>
 <?php endif; ?>
 <script>
